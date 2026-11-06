@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+*.pem
+credentials.json
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Training outputs and weights
+outputs/
+runs/
+logs/
+wandb/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# Local datasets
+data/
+*.arrow
+*.parquet
